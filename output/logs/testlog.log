@@ -46,3 +46,8 @@
 2023-02-28 16:16:35,068 - logger_File -INFO - user entered email and password
 2023-02-28 16:16:35,312 - logger_File -INFO - user clicked on login button
 2023-02-28 16:16:35,578 - logger_File -INFO - user is logged in into Account
+2023-03-01 15:57:54,289 - logger_File -INFO - user is on retail website
+2023-03-01 15:57:54,576 - logger_File -INFO - user clicked on sign in option
+2023-03-01 15:57:55,021 - logger_File -INFO - user entered email and password
+2023-03-01 15:57:55,328 - logger_File -INFO - user clicked on login button
+2023-03-01 15:57:55,500 - logger_File -INFO - user is logged in into Account
