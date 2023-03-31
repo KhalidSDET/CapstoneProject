@@ -163,11 +163,11 @@ public class RetailHomeSteps extends CommonUtility{
 			logger.info("user filled out the new address form");
 		}
 		
-		@And("User click Add Your Address button")
-		public void userClickAddYourAddBtn() {
-		click(factory.accountPage().addAddressButton);
-			logger.info("user clicked on add your address button");
-		}
+//		@And("User click Add Your Address button")
+//		public void userClickAddYourAddBtn() {
+//		click(factory.accountPage().addAddressButton);
+//			logger.info("user clicked on add your address button");
+//		}
 		
 		@And("User click Add a credit card or Debit Card for Payment method")
 		public void userClickAddCreditDebitCardforPaymentMethod() {
@@ -175,21 +175,21 @@ public class RetailHomeSteps extends CommonUtility{
 			logger.info("user clicked on Add a credit or debit card button");
 		}
 		
-		@And("User fill Debit or credit card information")
-		public void userFillDebitOrCreditCardInfo(DataTable dataTable) {
-			List<Map<String, String>> paymentData = dataTable.asMaps(String.class, String.class);
-			sendText(factory.accountPage().cardNumberInput, paymentData.get(0).get("cardNumber"));
-			sendText(factory.accountPage().nameOnCardInpu, paymentData.get(0).get("nameOnCard"));
-			sendText(factory.accountPage().expirationMonthInput, paymentData.get(0).get("expirationMonth"));
-			sendText(factory.accountPage().expirationYearInput, paymentData.get(0).get("expirationYear"));
-			sendText(factory.accountPage().securityCodeField, paymentData.get(0).get("securityCode"));
-		}
+//		@And("User fill Debit or credit card information")
+//		public void userFillDebitOrCreditCardInfo(DataTable dataTable) {
+//			List<Map<String, String>> paymentData = dataTable.asMaps(String.class, String.class);
+//			sendText(factory.accountPage().cardNumberInput, paymentData.get(0).get("cardNumber"));
+//			sendText(factory.accountPage().nameOnCardInpu, paymentData.get(0).get("nameOnCard"));
+//			sendText(factory.accountPage().expirationMonthInput, paymentData.get(0).get("expirationMonth"));
+//			sendText(factory.accountPage().expirationYearInput, paymentData.get(0).get("expirationYear"));
+//			sendText(factory.accountPage().securityCodeField, paymentData.get(0).get("securityCode"));
+//		}
 		
-		@And("User click on Add your card button")
-		public void userClickOnAddYourCardButton() {
-			click(factory.accountPage().addYourCardButton);
-			logger.info("user clicked on add your card button");
-		}
+//		@And("User click on Add your card button")
+//		public void userClickOnAddYourCardButton() {
+//			click(factory.accountPage().addYourCardButton);
+//			logger.info("user clicked on add your card button");
+//		}
 		
 		@And("User click on Place Your Order")
 		public void userClickOnPlaceYourOrder(){

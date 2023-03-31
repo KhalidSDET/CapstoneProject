@@ -837,3 +837,42 @@
 2023-03-30 00:55:54,796 - logger_File -INFO - user filled out a new address form
 2023-03-30 00:55:55,256 - logger_File -INFO - user clicked on add your address button
 2023-03-30 00:55:55,885 - logger_File -INFO - user added new address successfully
+2023-03-31 02:57:25,079 - logger_File -INFO - user is on retail website
+2023-03-31 02:57:26,462 - logger_File -INFO - user clicked on sign in option
+2023-03-31 02:57:27,153 - logger_File -INFO - user entered email and password
+2023-03-31 02:57:27,551 - logger_File -INFO - user clicked on login button
+2023-03-31 02:57:27,627 - logger_File -INFO - user is logged in into Account
+2023-03-31 02:57:28,071 - logger_File -INFO - User clicked on Account option
+2023-03-31 02:57:28,392 - logger_File -INFO - user clicked on remove option of Address section
+2023-03-31 03:02:03,201 - logger_File -INFO - user is on retail website
+2023-03-31 03:02:03,803 - logger_File -INFO - user clicked on sign in option
+2023-03-31 03:02:04,167 - logger_File -INFO - user entered email and password
+2023-03-31 03:02:04,461 - logger_File -INFO - user clicked on login button
+2023-03-31 03:02:04,615 - logger_File -INFO - user is logged in into Account
+2023-03-31 03:02:05,118 - logger_File -INFO - User clicked on Account option
+2023-03-31 03:02:05,485 - logger_File -INFO - user clicked on add address button
+2023-03-31 03:02:07,148 - logger_File -INFO - user filled out a new address form
+2023-03-31 03:02:07,572 - logger_File -INFO - user clicked on add your address button
+2023-03-31 03:04:38,618 - logger_File -INFO - user is on retail website
+2023-03-31 03:04:39,457 - logger_File -INFO - user clicked on sign in option
+2023-03-31 03:04:39,771 - logger_File -INFO - user entered email and password
+2023-03-31 03:04:40,091 - logger_File -INFO - user clicked on login button
+2023-03-31 03:04:40,202 - logger_File -INFO - user is logged in into Account
+2023-03-31 03:04:40,701 - logger_File -INFO - User clicked on Account option
+2023-03-31 03:04:41,045 - logger_File -INFO - user clicked on remove option of Address section
+2023-03-31 03:07:28,277 - logger_File -INFO - user is on retail website
+2023-03-31 03:07:28,891 - logger_File -INFO - user clicked on sign in option
+2023-03-31 03:07:29,260 - logger_File -INFO - user entered email and password
+2023-03-31 03:07:29,562 - logger_File -INFO - user clicked on login button
+2023-03-31 03:07:29,724 - logger_File -INFO - user is logged in into Account
+2023-03-31 03:07:30,226 - logger_File -INFO - User clicked on Account option
+2023-03-31 03:07:30,652 - logger_File -INFO - user clicked on add address button
+2023-03-31 03:07:32,019 - logger_File -INFO - user filled out a new address form
+2023-03-31 03:07:32,345 - logger_File -INFO - user clicked on add your address button
+2023-03-31 03:13:53,176 - logger_File -INFO - user is on retail website
+2023-03-31 03:13:54,234 - logger_File -INFO - user clicked on sign in option
+2023-03-31 03:13:54,596 - logger_File -INFO - user entered email and password
+2023-03-31 03:13:54,934 - logger_File -INFO - user clicked on login button
+2023-03-31 03:13:55,009 - logger_File -INFO - user is logged in into Account
+2023-03-31 03:13:55,462 - logger_File -INFO - User clicked on Account option
+2023-03-31 03:13:55,804 - logger_File -INFO - user clicked on remove option of Address section

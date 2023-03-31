@@ -125,7 +125,7 @@ public WebElement addressAddedMessage;
 @FindBy(xpath = "//button[contains(text(),'Remove')]")
 public WebElement removeAddressButton;
 
-@FindBy(xpath = "//div[@class = 'account__address-single' and @ data-id = '4201' ]")
+@FindBy(xpath = "//div[@class = 'account__address-single']")
 public WebElement selectedAddress;
 
 @FindBy(xpath = "//a[@id='orderLink']")

@@ -1,4 +1,3 @@
-@smoke
 Feature: Retail SignIn feature
 
   Background: 

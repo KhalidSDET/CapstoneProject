@@ -226,9 +226,10 @@ public class AccountSteps extends CommonUtility {
 		click(factory.accountPage().removeAddressButton);
 		logger.info("user clicked on remove option of Address section");
 	}
-    @Then("Address details should be removed")
-    public void addressDetailsShouldBeRemoved() {
-    	Assert.assertTrue(!isElementDisplayed(factory.accountPage().removeAddressButton));
+    @Then("Address details should be removed") 
+    public void addressDetailsShouldBeRemoved()throws InterruptedException {
+		wait(500);
+    	Assert.assertFalse(isElementDisplayed(factory.accountPage().selectedAddress));
     	logger.info("Address details removed from account");
     }
 	
