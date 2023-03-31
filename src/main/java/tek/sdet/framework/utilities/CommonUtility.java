@@ -67,6 +67,12 @@ public class CommonUtility extends BaseSetup {
         toClear.sendKeys(Keys.CONTROL + "a");
         toClear.sendKeys(Keys.DELETE);
     }
+    public void clearText(WebElement element) {
+        element.clear();
+    }
+    public void clearTextUsingJSExecutor(WebElement element) {
+        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+    }
     public void selectByIndex(WebElement ele, int index) {
         Select select = new Select(ele);
         select.selectByIndex(index);
@@ -168,6 +174,6 @@ public class CommonUtility extends BaseSetup {
     }
     public void scrollPageDownWithJS() {
         JavascriptExecutor js = ((JavascriptExecutor) getDriver());
-        js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+        js.executeScript("window.scrollTo(50,document.body.scrollHeight)");
     }
 }

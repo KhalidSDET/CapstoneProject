@@ -6,9 +6,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import tek.sdet.framework.base.BaseSetup;
 
-public class SignInPage extends BaseSetup {
+public class RetailSignInPage extends BaseSetup {
 	
-	public SignInPage() {
+	public RetailSignInPage() {
 		
 		PageFactory.initElements(getDriver(), this);
 		
@@ -32,4 +32,5 @@ public class SignInPage extends BaseSetup {
 	public WebElement createNewAccountConfPasswordField;
 	@FindBy(id = "signupBtn")
 	public WebElement createNewAccountSignUpButton;
+	
 }
