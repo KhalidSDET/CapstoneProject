@@ -12,7 +12,7 @@ public class RetailOrderPage extends BaseSetup {
 		PageFactory.initElements(getDriver(), this);
 	}
 	
-	@FindBy(xpath = "(//p[@class='order__header-btn'])[1]")
+	@FindBy(className = "order__header-title")
 	public WebElement firstOrderSelection;
 	
 	@FindBy(css = "#cancelBtn")

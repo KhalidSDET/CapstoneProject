@@ -10,7 +10,7 @@ Feature: Retail Account Page
 
   @updateProfileInformation @smoke @regression
   Scenario: Verify User can update Profile information
-    And User update Name 'khalid' and Phone '571-489-3707'
+    And User update Name 'Khalid' and Phone '571-489-3707'
     And User click on Update button
     Then User Profile information should be updated
 

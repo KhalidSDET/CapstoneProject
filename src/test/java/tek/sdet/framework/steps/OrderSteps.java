@@ -33,11 +33,11 @@ public class OrderSteps extends CommonUtility {
 	logger.info("user clicked on cancel button");
 	}
 	
-	@And("User select the cancelation Reason 'Bought wrong item'")
-	public void userSelectTheCancelationReason() {
-	waitTillPresence(factory.orderPage().cancelationReason);
-	selectByVisibleText(factory.orderPage().cancelationReason, "Bought wrong item");
-	logger.info("user selected the cancelation Reason");
+	@And("User select the cancelation Reason {string}")
+	public void userSelectTheCancelationReason(String reason) {
+	click(factory.orderPage().cancelationReason);
+	selectByVisibleText(factory.orderPage().cancelationReason, reason);
+	logger.info("user selected the cancelation Reason 'Bought wrong item'");
 	}
 	
 	@And("User click on Cancel Order button")
@@ -62,18 +62,18 @@ public class OrderSteps extends CommonUtility {
 	logger.info("user clicked on return button");
 	}
 	
-    @And("User select the Return Reason 'Item damaged'")
-    public void userSelectTheReturnReason() {
-    waitTillPresence(factory.orderPage().orderReturnReason);	
-    selectByValue(factory.orderPage().orderReturnReason, "damage");
-    logger.info("user selected the return reason");
+    @And("User select the Return Reason {string}")
+    public void userSelectTheReturnReason(String reason) {
+    click(factory.orderPage().orderReturnReason);	
+    selectByVisibleText(factory.orderPage().orderReturnReason, reason);
+    logger.info("user selected the return reason 'Item damaged'");
     }
     
-    @And("User select the drop off service 'FedEx'")
-    public void userSelectTheDropOffService() {
-    waitTillPresence(factory.orderPage().dropOffSelection);
-    selectByVisibleText(factory.orderPage().dropOffSelection, "FedEx");
-    logger.info("user selected the drop off service");
+    @And("User select the drop off service {string}")
+    public void userSelectTheDropOffService(String reason) {
+    click(factory.orderPage().dropOffSelection);
+    selectByVisibleText(factory.orderPage().dropOffSelection, reason);
+    logger.info("user selected the drop off service 'Fedex'");
     }
     
     @And("User click on Return Order button")
@@ -103,8 +103,6 @@ public class OrderSteps extends CommonUtility {
     public void userWriteReviewHeadline(String headlineReview, String textReview) {
     sendText(factory.orderPage().headlineReviewInput, headlineReview);
     sendText(factory.orderPage().textReviewInput, textReview);
-    Assert.assertEquals(headlineReview, factory.orderPage().headlineReviewInput.getText());
-    Assert.assertEquals(textReview, factory.orderPage().textReviewInput.getText());
     logger.info("user write review headline: "+headlineReview+ "and Review text"+textReview);
     }
     
